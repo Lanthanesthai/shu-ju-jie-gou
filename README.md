@@ -6,9 +6,12 @@
 
 使用Python3.8环境
 
-在……\pacman\pacman路径下使用命令行即可实现对局：
+在……\pacman\pacman路径下使用下面命令行任一个即可实现对局：
 
 python capture.py -r algo/1 -b baselineTeam
+
 python capture.py -r algo/2 -b baselineTeam
+
 python capture.py -r baselineTeam -b algo/1
+
 python capture.py -r baselineTeam -b algo/2
